@@ -3,7 +3,7 @@ import random
 import openpyxl
 
 
-avtor = input().split(', ')
+avtor = input().split(', ') #Формат записи (Название группы-3, название группы-2)
 pesni = []
 wb = openpyxl.Workbook()
 sheet = wb.active
